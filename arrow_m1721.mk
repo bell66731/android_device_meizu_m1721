@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/meizu/m1721/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := m1721
-PRODUCT_NAME := lineage_m1721
+PRODUCT_NAME := arrow_m1721
 PRODUCT_BRAND := Meizu
 PRODUCT_MODEL := M6 Note
 PRODUCT_MANUFACTURER := Meizu
